@@ -1,6 +1,8 @@
 # PostTrain_RSI
 RL(with RL_RSI) -> self distillation -> SFT -> RL
 
+This loop will exist as a plugin and can be used with deepseek harnesses or Hermes.
+
 ## self distillation
 - Create several roles: data-miner\Judge\Rewritter\Manager, with the current checkpoint.
 - Create a share database: store knowledge from now on. Every roles can access the share database.
