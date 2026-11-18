@@ -1,5 +1,5 @@
 # PostTrain_RSI
-RL(with RL_RSI) -> self distillation -> SFT -> RL
+RL(with RL_RSI) -> self distillation + more knowledge -> SFT -> RL
 
 This loop will exist as a plugin and can be used with deepseek harnesses or Hermes.
 
